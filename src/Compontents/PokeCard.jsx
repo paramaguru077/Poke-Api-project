@@ -79,7 +79,7 @@ const PokeCard = ({name}) => {
         <h1>Pokemon Cards</h1>
         <input
           type="text"
-          placeholder="Search Pokémon by name..."
+          placeholder="Search Pokemon by name..."
           value={searchQuery}
           onChange={handleSearchChange}
         />
